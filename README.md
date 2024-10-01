@@ -4,7 +4,7 @@ Brain MRI Metastasis Segmentation using Machine Learning and Streamlit
 This project focuses on developing a machine learning-based solution for segmenting metastatic tumors in brain MRI scans. The segmentation process aims to automatically detect and isolate metastatic regions in MRI images, aiding in early diagnosis and treatment planning for patients with cancer that has spread to the brain.
 
 ## Key Features:
-Dataset: The project uses a brain MRI dataset with labeled regions of metastasis, enabling supervised learning. The dataset includes multiple MRI modalities, such as T1, T2, and FLAIR images, for a more comprehensive analysis.
+* Dataset: The project uses a brain MRI dataset with labeled regions of metastasis, enabling supervised learning. The dataset includes multiple MRI modalities, such as T1, T2, and FLAIR images, for a more comprehensive analysis.
 Preprocessing: MRI scans are preprocessed to enhance the image quality and standardize input dimensions. This includes techniques like normalization, skull stripping, and augmentation to increase the robustness of the model.
 Modeling: A machine learning pipeline is built to perform the segmentation task. Popular models like U-Net, or other deep learning architectures designed for medical image segmentation, are trained using the processed MRI scans.
 Evaluation: The performance of the model is evaluated using metrics such as Dice coefficient, Intersection over Union (IoU), and precision-recall to assess the accuracy of tumor segmentation.
